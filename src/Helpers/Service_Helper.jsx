@@ -1,4 +1,5 @@
-import React from "react";
+import figure1 from "../assets/Images/feature-1.png";
+import figure2 from "../assets/Images/feature-2.png";
 import { Tick } from "../assets/SVG";
 import Bulletpoint_tick from "../components/Bulletpoint/Bulletpoint_tick";
 import Description_bigfont from "../components/Description/Description_bigfont";
@@ -19,7 +20,7 @@ export default function Service_Helper({ Data, Reverse }) {
         <Description_bigfont text={Data.Description2} />
       </div>
       <div className={`${Reverse ? "lg:order-1" : "lg:order-2"}`}>
-        <img src="/src/assets/Images/feature-1.png" alt="" />
+        <img src={Reverse ? figure2 : figure1} alt="" />
       </div>
     </div>
   );

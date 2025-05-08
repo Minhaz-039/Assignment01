@@ -1,5 +1,5 @@
-import React from "react";
 import { FooterInfo } from "../assets/Info";
+import Logo from "../assets/Logo/logo.svg";
 import {
   Dribble,
   Facebook,
@@ -35,7 +35,7 @@ export default function Footer() {
             className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
           >
             <img
-              src="/src/assets/Logo/logo.svg"
+              src={Logo}
               className="h-6 mr-3 sm:h-9"
               alt="Learn with Sumit Logo"
             />

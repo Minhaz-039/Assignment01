@@ -1,4 +1,4 @@
-import React from "react";
+import profile from "../assets/Avatar/michael-gouch.png";
 import { TestimonialInfo } from "../assets/Info";
 import { Quote } from "../assets/SVG";
 import Title_smallfont from "../components/Title/Title_smallfont";
@@ -13,7 +13,7 @@ export default function Testimonial() {
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
             <img
               className="w-6 h-6 rounded-full"
-              src="/src/assets/Avatar/michael-gouch.png"
+              src={profile}
               alt="Michale-gouch"
             />
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
