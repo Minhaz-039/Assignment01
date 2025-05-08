@@ -1,4 +1,4 @@
-import React from "react";
+import HeroImage from "../assets/Images/hero.png";
 import { HERO } from "../assets/Info";
 import { Figma, Github } from "../assets/SVG";
 import Button_Linked from "../components/Buttons/Button_Linked";
@@ -21,11 +21,7 @@ export default function Hero() {
 
         {/* This is the image part */}
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img
-            src="/src/assets/Images/hero.png"
-            alt="Hero pic"
-            className="w-full h-full"
-          />
+          <img src={HeroImage} alt="Hero pic" className="w-full h-full" />
         </div>
       </div>
     </div>
